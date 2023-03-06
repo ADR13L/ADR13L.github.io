@@ -1,0 +1,17 @@
+Body {background-color: #b1f2ff;}
+
+h1, p {
+  margin: 1em auto;
+  text-align: left;
+}
+fieldset {background-color: #90EE90;
+border-width: 4px;
+border-color: #000000;
+border-inline: 10px;
+margin-block: 1px
+}
+textarea{
+  margin-top: 15px;
+margin-bottom: 20px;}
+select {margin-right: 15px;
+margin-bottom: 8px;}
