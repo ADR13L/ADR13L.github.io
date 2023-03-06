@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Survey-Form</h1>
+  <p id="description">Please fill out this form with the required information</p>
+  <form id="survey-form" class="survey-form">
+    <fieldset>
+      <br>
+      <label id="name-label" for="name">Enter Your Name: <input id="name" placeholder="First Name and Last Name" name="name" type="text" required ></label><br>
+      <br>
+      <label id="email-label" for="email">Enter Your Email: <input id="email" type="email" placeholder="example@gmail.com" required></label><br>
+      <br>
+      <label id="number-label" >Enter Your Number: 
+<input id="number" type="number"  name="phone" placeholder="123-456-6789"    min="9" max="24" required></label>
+      <br>
+    </fieldset>
+    <br>
+    <fieldset>What is Your Favorite Food and Why?
+     <select id="dropdown" name="dropdown">
+   <option value="">(Select One)</option>
+   <option value="1">Pizza</option>
+   <option value="2">French Fries</option>
+   <option value="3">White Rice</option>
+   <option value="4">Sushi</option>
+   <option value="5">Chicken Tenders</option>
+   <option value="6">Other</option>
+   </select><br>
+  <textarea rows="2" cols="20" placeholder="Type here..." required ></textarea>
+</fieldset>
+ <br><fieldset>
+<label>If You Chose Other, in the Box Below Type Your Favorite Food and then explain why.</label>
+<br><textarea rows="2" cols="20" placeholder="Type here..." ></textarea>
+</fieldset><br>
+<fieldset> What is Your Favorite Type of Drink?
+<p> <label for="water"><input id="water" type="radio" name="group1" value="radio" class="inline">Water</label></p>
+    <p> <label for="juice"><input id="juice" type="radio" name="group1" value="radio" class="inline" >Juice</label></p>
+        <p> <label ><input type="radio" name="group2" value="radio" class="inline" >Soft Drinks</label></p>
+      <label >
+        <input type="radio" name="group2" value="radio" class="inline">Hard Drinks</label>
+        <p> <label for="milk"><input id="milk" type="radio" name="group3" value="radio" class="inline" >Milk</label>
+       <p> <label for="smoothie"><input id="smoothie" type="radio" name="group3" value="radio" class="inline">Smoothie</label>
+    </fieldset>
+    <p><fieldset>
+      If You Have More than One Favorite, Check them.
+      <p> <label><input type="checkbox" id="for" value="checkbox" name="water" class="inline" >Water</label></p>
+    <p> <label><input type="checkbox" value="checkbox" name="juice" class="inline" >Juice</label></p>
+       <p> <label><input type="checkbox" value="checkbox" name="soft drinks" class="inline">Soft Drinks</label></p>
+      <label>
+        <input type="checkbox" value="checkbox" name="hard drinks" class="inline">Hard Drinks</label>
+        <p> <label><input type="checkbox" value="checkbox" name="milk" class="inline" >Milk</label></p>
+         <p> <label><input type="checkbox" value="checkbox" name="smoothie" class="inline">Smoothie</label>
+</fieldset>
+<p>
+    <label for="submit">
+      <input id="submit" type="submit"  value="Submit" name="submit">
+    </label>
+    </form>
+    </body>
+    </html>
