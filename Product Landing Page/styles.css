@@ -315,4 +315,6 @@ padding-top: 20px;}
 .list3 {padding-bottom: 20px;
 padding-top: 20px;}
 
-#video {height: 300px;}
+#video {height: 300px;
+border: 0;
+padding-left: 100px;}
