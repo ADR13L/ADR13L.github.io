@@ -318,5 +318,6 @@ padding-top: 20px;}
 #video {height: 300px;
 border: 0;
   paddin-left: 200px;
+  position: absolute;
  right: 100px;
 width: 50%;}
